@@ -1,0 +1,37 @@
+C:\repos\JSonAction>JSonAction addAction {"action":"jump", "time":100}
+
+C:\repos\JSonAction>JSonAction addAction {"action":"run", "time":75}
+
+C:\repos\JSonAction>JSonAction addAction {"action":"jump", "time":200}
+
+C:\repos\JSonAction>JSonAction getStats
+        [
+                {"action":"jump", "avg":150}
+                {"action":"run", "avg":75}
+        ]
+
+C:\repos\JSonAction>JSonAction addAction {"action":"jump", "time":100} {"action":"run", "time":75} {"action":"jump", "time":200}
+
+C:\repos\JSonAction>JSonAction getStats
+        [
+                {"action":"jump", "avg":150}
+                {"action":"run", "avg":75}
+        ]
+
+C:\repos\JSonAction>JSonAction addAction {"action":"jump",
+Second parameter is missing.
+Please check and resubmit.
+
+C:\repos\JSonAction>JSonAction addAction {"action":"jump", "time"
+Second parameter is missing.
+Please check and resubmit.
+
+C:\repos\JSonAction>JSonAction addAction {"action":"jump", "time":400}
+
+C:\repos\JSonAction>JSonAction getStats
+        [
+                {"action":"jump", "avg":200}
+                {"action":"run", "avg":75}
+        ]
+
+C:\repos\JSonAction>
