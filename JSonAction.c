@@ -65,7 +65,7 @@ action_stats_tag.txt is automatically deleted when AddAction is done updating th
    ---------- ------------- ---------------------------------------------
     DATE        NAME          DESCRIPTION
    ---------- ------------- --------------------------------------------
-   02/02/2021 KAshkon       Initial version
+   02/01/2021 KAshkon       Initial version
    ===================================================================================================
 
 Example calls to the program:
